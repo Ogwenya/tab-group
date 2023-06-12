@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Group",
+  "version": "1.0",
+  "description": "Group important Tabs to reduce many tabs on screen.",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "bookmarks"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icon.png"
+    },
+    "default_title": "Tab Group",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A",
+        "mac": "Command+Shift+A"
+      },
+      "description": "Open the Tab Group popup"
+    }
+  }
+}
