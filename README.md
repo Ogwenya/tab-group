@@ -8,10 +8,10 @@ Tab Group is a simple firefox extension that allows you to manage a list of prio
 
 Right-click on a webpage and select `Add Tab To Tab Group` to add the url to `Tab Group'
 
-![My animated logo](assets/screenshot-1.png)
+![screenshot 1](assets/screenshot-1.png)
 
 You can now pin the extension to the taskbar and easily access your important bookmarks.
 
-![My animated logo](assets/screenshot-2.png)
+![screenshot 2](assets/screenshot-2.png)
 
-![My animated logo](assets/screenshot-3.png)
+![screenshot 3](assets/screenshot-3.png)
